@@ -8,44 +8,48 @@
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-  <script src="script.js"></script>
-  
+    
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 
 </head>
 <body>
+<div class="container">
 
-  <header>
-    <img src="images/logo.svg" alt="Store Logo">
-  </header>
+  <div class="left">
+    <div class="innerContainer">
+    <header>
+      <img src="images/logo.svg" alt="Store Logo" class="logo">
+    </header>
 
-  <figure>
-    <img src="images/hero-mobile.jpg" alt="Model">
-  </figure>
+    <figure>
+      <img src="images/hero-mobile.jpg" alt="Model" class="modelMobile">
+    </figure>
 
-  <main>
-    <h1>
-      <span id="We-re">We're</span> coming soon
-    </h1>
+      <h1>
+        <span id="We-re">We're</span> coming soon
+      </h1>
 
-    <p id="paragraphMain">
-      Hello fellow shoppers! We're currently building our new fashion store.
-      Add your email below to stay up-to-date with announcements and our launch deals.
-    </p>
+      <p id="paragraphMain">
+        Hello fellow shoppers! We're currently building our new fashion store.
+        Add your email below to stay up-to-date with announcements and our launch deals.
+      </p>
 
-    <form>
-      <input type="email" name="e-mail" placeholder="Email Address">
-      <button>></button>
-      <p id="errorMessage">Please provide a valid email</p>
-      <img src="images/icon-error.svg" id="errorMessageIcon" alt="Error Message Icon">
-    </form>
-  </main>  
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.<br> 
-      Coded by <a href="#">Fabio Amaral</a>.
-    </p>
-  </footer>
+      <form>
+        <input type="email" name="e-mail" placeholder="Email Address">
+        <button><img src="images/icon-arrow.svg"></button>
+        <small id="errorMessageId" class=""></small>
+        <img src="images/icon-error.svg" id="errorIconId" class="errorIcon" alt="Error Message Icon">
+      </form>
+
+  </div>
+  </div>
+    <div class="right modelDesktop"></div> 
+
+</div>
+
+
+
+
+  <script src="script.js"></script>
 </body>
 </html>
