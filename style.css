@@ -48,7 +48,7 @@ h1 {
 }
 
 form {
-    height:80px;
+    height:80px;    
     text-align: center;
     margin-bottom: 50px;
     margin-left: 15px;
@@ -70,9 +70,6 @@ input::placeholder{
     color:hsl(0, 36%, 70%);
 }
 
-input:focus{
-    border-color: hsl(0, 93%, 68%);
-}
 
 button{
     height: 40px;
@@ -81,8 +78,7 @@ button{
     font-weight: 600;    
     padding: 0;    
     position: absolute;
-    left: 250px;
-    color: white;
+    left: 68%;
     background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     border: none;
     outline:none;    
@@ -99,45 +95,22 @@ button:hover{
     margin-left: 35px;
     text-align: left;
     color: hsl(0, 93%, 68%);
-    opacity: 1;
+    opacity: 0;
     position: absolute;
     top: 50%;
-    left: 50px;    
+    left: 20%;     
 }
 
 .errorIcon{
     position: absolute;
     top: 12%;
-    left: 59%;
+    left: 62%;
     height: 20px;
     opacity: 0;
 }
 
-footer{
-    text-align: center;
-    color:hsl(0, 6%, 24%);
-    line-height: 20px;
-    margin-bottom:20px;    
-}
-
-a{
-    text-decoration: none;
-    color: hsl(0, 6%, 24%);        
-}
-
-a:hover{
-    cursor: pointer;
-    color:black;
-    text-decoration: underline;
-}
-
-a:visited{
-    color: hsl(0, 6%, 24%);
-}
-
 @media screen and (min-width: 600px){
 
-    
     .logo {
         height: 30px;
         margin-left: 90px;
@@ -159,11 +132,12 @@ a:visited{
         text-align: left;
         font-size:40px;
         margin-left: 120px;
-        padding-left:10px;
+        padding-left:10px;       
     }
 
     .innerContainer{
-        max-width: 500px;
+        max-width: 600px;
+        
     }
 
     #paragraphMain{
@@ -174,6 +148,18 @@ a:visited{
     form{
         margin-left: 120px;
         text-align:left;
+    }
+
+    button{
+        left: 250px;
+    }
+
+    .errorIcon{
+    left: 220px;
+    }
+
+    .errorMessage{
+    left: -8px;   
     }
 
     .right {
@@ -193,7 +179,7 @@ a:visited{
     }
 }
 
-@media screen and (max-width: 737px){
+@media (min-width: 599px) and (max-width: 737px){
 
     input{
         width: 200px;
@@ -201,6 +187,15 @@ a:visited{
 
     button{
         left:160px;
+    }  
+
+    .errorIcon{
+    left: 132px;
+    }
+
+    .errorMessage{
+    left: -8px;     
     }
 
 }
+
