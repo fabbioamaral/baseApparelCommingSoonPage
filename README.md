@@ -1,5 +1,9 @@
 I've done this challenge on the 03/04/2021 in order to practice my skills in regards of HTML, CSS and JavaScript. 
 
+Check out the final result at: https://fabbioamaral.github.io/baseApparelCommingSoonPage/
+
+-----------------------------------------------------------------------------------------------------------------
+
 # Frontend Mentor - Base Apparel coming soon page
 
 ![Design preview for the Base Apparel coming soon page coding challenge](./design/desktop-preview.jpg)
